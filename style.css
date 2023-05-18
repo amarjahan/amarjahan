@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: lightblue;
+}
+p{
+    color: brown;
+}
+h1{
+    color:red ;
+}
+h2{
+    color: blueviolet;
+}
+h3{
+    color: brown;
+}
+h4{
+    color: chocolate;
+}
+h5{
+    color: crimson;
+}
+h6{
+    color: darkgreen;
+}
