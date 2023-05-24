@@ -3,27 +3,38 @@
     margin: 0;
     box-sizing: border-box;
 }
-body{
-    background-color: lightblue;
+.Navigation{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
-p{
-    color: brown;
+.nav-links{
+    display: flex;
+    gap: 30px;
+} 
+.nav-button{
+    border: 1px;
+    padding: 10px;
+    border-radius: 30px;
+    background-color:#dd1a1a;
+    color: #fff;
+    cursor: pointer;
+
 }
-h1{
-    color:red ;
+.home-about-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
-h2{
-    color: blueviolet;
+.home-service{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
-h3{
-    color: brown;
+.image-link{
+    padding: 100px;
 }
-h4{
-    color: chocolate;
-}
-h5{
-    color: crimson;
-}
-h6{
-    color: darkgreen;
+.service{
+    text-align: center;
+
 }
