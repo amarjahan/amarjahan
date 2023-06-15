@@ -34,17 +34,20 @@ console.log(x);
     var x= 10;
     console.log(x +=5);
 }
-
 {
+
     let result1=2;
     let result2=8;
     let result3=result1<=result2;
     console.log(result3);
 }
 
-{
+
     let result1=2;
     let result2=8;
-    let result3=result1&result2;
-    console.log(result3);
-}
+let result3 = 10;
+console.log(result1 < result2 && result2 < result3);
+console.log(result1 < result2 && result2 > result3);
+console.log(result1 > result2 && result2 < result3);
+console.log(result1 > result2 && result2 > result3);
+
